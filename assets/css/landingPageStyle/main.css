@@ -49,3 +49,8 @@
     margin: 20px;
     font-size: 25px;
 }
+
+#second-frame{
+    display: flex;
+    flex-direction: row;
+}
