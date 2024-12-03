@@ -1,0 +1,50 @@
+#first-frame{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: #F5D0A9;
+    height: 80vh;
+}
+
+#first-frame div button {
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 15px;
+    width: 140px;
+    height: 40px;
+    font-size: medium;
+}
+
+#ring{
+    width: 120px;
+}
+
+#logo{
+    width: 300px;
+}
+
+
+#imgDiv{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+#titleDiv, #descriptionDiv{
+    display: flex;
+    justify-content: center;
+}
+#first-frame div h1{
+    font-size: 85px;
+    width: 60%;
+    text-align: center;
+   
+}
+
+#first-frame div p{
+    width: 70%;
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
