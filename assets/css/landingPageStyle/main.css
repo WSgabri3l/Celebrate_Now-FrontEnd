@@ -18,6 +18,10 @@
     height: 40px;
     font-size: medium;
 }
+#first-frame div button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+}
 
 #ring{
     width: 120px;
@@ -25,7 +29,6 @@
 
 #logo{
     width: 350px;
-    height: 200px;
 }
 
 
