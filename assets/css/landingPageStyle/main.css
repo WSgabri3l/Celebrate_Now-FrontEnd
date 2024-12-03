@@ -4,11 +4,12 @@
     
     align-items: center;
     background-color: #F5D0A9;
-    height: 100vh;
+    
 }
 
 #first-frame div button {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
     background-color: white;
     border: none;
     color: black;
@@ -23,7 +24,8 @@
 }
 
 #logo{
-    width: 300px;
+    width: 350px;
+    height: 200px;
 }
 
 
@@ -35,6 +37,7 @@
 #titleDiv, #descriptionDiv{
     display: flex;
     justify-content: center;
+    
 }
 #first-frame div h1{
     font-size: 85px;
