@@ -1,0 +1,124 @@
+#fundo {
+    background-color: #F5D0A9;
+    width: 100%;
+    height: 300px;
+}
+
+#containerGeral {
+    height: 650px;
+    width: 1000px;
+    position: absolute;
+    bottom: 130px;
+    display: flex;
+    color: white;
+}
+
+#imagem {
+    width: 500px;
+    height: 100%;
+}
+
+#loginForm {
+    width: 500px;
+    height: 100%;
+    background-color: #2D2D2D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+#divCenter {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#spaceLoginToTheRest {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#spaceEmailAndPasswordToTheRest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#loginName {
+    border-bottom: 0.5px solid #ffff;
+    font-size: large;
+    height: 50px;
+    width: 98px;
+}
+
+#emailField {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    gap: 15px;
+}
+
+#emailField input {
+    width: 250px;
+    background-color: #2D2D2D;
+    border: none;
+    border-bottom: 0.5px solid #ffff;
+    color: white;
+}
+
+#passwordField {
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    gap: 15px;
+}
+
+#passwordField input {
+    width: 250px;
+    background-color: #2D2D2D;
+    border: none;
+    border-bottom: 0.5px solid #ffff;
+    color: white;
+}
+
+#buttonLogin button{
+    height: 35px;
+    width: 75px;
+    border-radius: 12px;
+    font-size: large;
+    border: none;
+}
+
+#buttonLogin button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#forgetPassword a{
+    text-decoration: none;
+    color: white;
+}
+
+#forgetPassword a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#email:focus {
+    color: white;
+    border: none;
+    border-bottom: 0.5px solid #ffff;
+    outline: 0;
+}
+
+#password:focus {
+    color: white;
+    border: none;
+    border-bottom: 0.5px solid #ffff;
+    outline: 0;
+}
