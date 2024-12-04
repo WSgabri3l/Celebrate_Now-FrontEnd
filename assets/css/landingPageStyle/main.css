@@ -55,5 +55,51 @@
 
 #second-frame{
     display: flex;
+    padding: 3%;
+}
+#service{
+    width: 100%;
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#service div{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#service img{
+    width: 12%;
+}
+#service .service-txt{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+}
+#service #schedule{
+    display: flex;
+    align-items: baseline;
+    
+}
+#service #checklist{
+    display: flex;
+    align-items: baseline;
+}
+#service #budget{
+    display: flex;
+    align-items: baseline;
+}
+#service #communication{
+    display: flex;
+    align-items: baseline;
+}
+#service #suppliers{
+    display: flex;
+    align-items: baseline;
 }
